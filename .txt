@@ -8,4 +8,10 @@ create repo
 open terminal
 git config --global user.name apkagithubname
 git config --global user.email apkagithubemail
+
+ git init
+ git add .
+ git commit -m "done"
+ git branch -M mian
+ 
  
