@@ -1,0 +1,11 @@
+
+
+sigup github
+git download
+https://git-scm.com/install/windows
+
+create repo
+open terminal
+git config --global user.name apkagithubname
+git config --global user.email apkagithubemail
+ 

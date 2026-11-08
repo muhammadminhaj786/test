@@ -1,0 +1,35 @@
+.box {
+    height: 300px;
+    width: 900px;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    border: 1px solid black;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    /* margin: 0 auto; */
+    /* display: block; */
+    /* float: right; */
+    object-fit: cover;
+}
+
+.bg {
+    height: 500px;
+    /* background-color: aqua;
+    background-image: url('https://images.stockcake.com/public/5/7/3/573c66be-2a04-4c52-961f-988a31bd9345_large/red-sports-car-stockcake.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed; */
+
+    /* background: red url('https://images.stockcake.com/public/5/7/3/573c66be-2a04-4c52-961f-988a31bd9345_large/red-sports-car-stockcake.jpg') no-repeat center; */
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.5) 0%, rgba(9, 9, 121, 0.4) 35%, rgba(0, 212, 255, 0.4) 100%), url('https://images.stockcake.com/public/5/7/3/573c66be-2a04-4c52-961f-988a31bd9345_large/red-sports-car-stockcake.jpg') no-repeat;
+
+}
+
+.box2 {
+    height: 500px;
+}
